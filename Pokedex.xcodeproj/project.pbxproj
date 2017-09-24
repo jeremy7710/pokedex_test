@@ -13,6 +13,8 @@
 		3F34AF6E1F7782CA00ADC8FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F34AF6C1F7782CA00ADC8FF /* Main.storyboard */; };
 		3F34AF701F7782CA00ADC8FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F34AF6F1F7782CA00ADC8FF /* Assets.xcassets */; };
 		3F34AF731F7782CA00ADC8FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F34AF711F7782CA00ADC8FF /* LaunchScreen.storyboard */; };
+		3F34AF7C1F77948D00ADC8FF /* pokeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F34AF7B1F77948D00ADC8FF /* pokeCell.m */; };
+		3F34AF7F1F7794AD00ADC8FF /* Pokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F34AF7E1F7794AD00ADC8FF /* Pokemon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3F34AF6F1F7782CA00ADC8FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F34AF721F7782CA00ADC8FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F34AF741F7782CA00ADC8FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F34AF7A1F77948D00ADC8FF /* pokeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pokeCell.h; sourceTree = "<group>"; };
+		3F34AF7B1F77948D00ADC8FF /* pokeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pokeCell.m; sourceTree = "<group>"; };
+		3F34AF7D1F7794AD00ADC8FF /* Pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pokemon.h; sourceTree = "<group>"; };
+		3F34AF7E1F7794AD00ADC8FF /* Pokemon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pokemon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				3F34AF671F7782CA00ADC8FF /* AppDelegate.m */,
 				3F34AF691F7782CA00ADC8FF /* ViewController.h */,
 				3F34AF6A1F7782CA00ADC8FF /* ViewController.m */,
+				3F34AF7A1F77948D00ADC8FF /* pokeCell.h */,
+				3F34AF7B1F77948D00ADC8FF /* pokeCell.m */,
+				3F34AF7D1F7794AD00ADC8FF /* Pokemon.h */,
+				3F34AF7E1F7794AD00ADC8FF /* Pokemon.m */,
 				3F34AF6C1F7782CA00ADC8FF /* Main.storyboard */,
 				3F34AF6F1F7782CA00ADC8FF /* Assets.xcassets */,
 				3F34AF711F7782CA00ADC8FF /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F34AF7C1F77948D00ADC8FF /* pokeCell.m in Sources */,
 				3F34AF6B1F7782CA00ADC8FF /* ViewController.m in Sources */,
 				3F34AF681F7782CA00ADC8FF /* AppDelegate.m in Sources */,
+				3F34AF7F1F7794AD00ADC8FF /* Pokemon.m in Sources */,
 				3F34AF651F7782CA00ADC8FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
