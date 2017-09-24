@@ -41,6 +41,7 @@
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6R8-pH-rXE">
                                 <rect key="frame" x="16" y="109" width="343" height="538"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="ifm-vf-hEb">
                                     <size key="itemSize" width="83" height="85"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
